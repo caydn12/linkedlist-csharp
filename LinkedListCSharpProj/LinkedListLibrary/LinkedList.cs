@@ -59,6 +59,7 @@ namespace LinkedListLibrary
                 trail = travel;
                 travel = travel.Next;
                 trail.Next = null;
+                trail.Previous = null;
             }
 
             _head = _tail = null;
